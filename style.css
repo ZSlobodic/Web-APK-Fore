@@ -1,7 +1,16 @@
 table {
     border: 1px solid black;
+    width: 100%;
+    table-layout: fixed;
 }
 table td {
     border: 1px solid black;
     padding: 15px;
+}
+table th{
+    border: 1px solid black;
+}
+table img{
+    width: 100%;
+    height: auto;
 }
