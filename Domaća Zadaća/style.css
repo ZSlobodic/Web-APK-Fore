@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+}
+.img1 {
+    text-align: center;
+}
+.img1 img {
+    width: 75px;
+    height: 50px;
+}
+.img2 {
+    float: left;
+    width: 250px;
+    height: auto;
+}
+.poglavlje {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.kontejner iframe{
+    width: 700px;
+    height: 700px;
+}
+.kontejner {
+    display: flex;
+    justify-content: center;
+}
+.razmak a{
+    margin: 0.5rem;
+}
+.lista div {
+    display: flex;
+}
+.lista li {
+    margin-top: 1rem;
+}
+.img3 {
+    float: right;
+    width: 150px;
+    height: auto;
+}
+.type-square {
+    list-style-type: square;
+}
+.type-i {
+    list-style-type: lower-roman;
+}
+.type-o {
+    list-style-type: circle;
+}
+.type-a {
+    list-style-type: lower-alpha;
+}
