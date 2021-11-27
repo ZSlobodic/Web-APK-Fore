@@ -23,4 +23,26 @@ body {
     float: left;
     margin-right: 1rem;
     margin-bottom: 1rem;
+    width: 40%;
+}
+.logo {
+    height: 25px;
+    width: auto;
+}
+.cr {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.vid1 {
+    float: left;
+    width: 25%;
+    border: 1px solid black;
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.msg {
+    font: bold;
 }
