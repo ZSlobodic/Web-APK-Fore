@@ -43,6 +43,54 @@ body {
     margin-right: 1rem;
     margin-bottom: 1rem;
 }
+.vid1 iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
 .msg {
     font: bold;
+}
+.post {
+    display: flex;
+    border-bottom: solid black 1px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.post img {
+    width: 300px;
+    height: 300px;
+}
+.post-gallery {
+    display: flex;
+    border-bottom: solid black 1px;
+}
+.post-gallery figure {
+    padding: 5px;
+    border: solid black 1px;
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery figure {
+    padding: 5px;
+    border: solid black 1px;
+    text-align: center;
+    width: 20vw;
+}
+.gallery img {
+    object-fit: contain;
+}
+input {
+    border: solid outset 1px;
+    border-radius: 6px;
+    padding: 10px;
+}
+textarea {
+    border: solid outset 1px;
+    border-radius: 6px;
+    padding: 10px;
 }
