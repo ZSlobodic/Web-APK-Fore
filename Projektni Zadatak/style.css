@@ -43,7 +43,7 @@ body {
     margin-right: 1rem;
     margin-bottom: 1rem;
 }
-.vid1 iframe {
+.vid1 video {
     width: 100%;
     height: auto;
     aspect-ratio: 16/9;
